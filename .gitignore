@@ -1,0 +1,32 @@
+# automatically built files
+*.o
+*.a
+*.lst
+*.hex
+*.eep
+*.elf
+*.map
+*.sym
+*.lss
+
+#Misc
+Makefile.lib
+Makefile.wpo
+gcc.bat
+gcc2.bat
+
+#Programmer's Notepad files
+*.pnproj
+*.pnps
+
+#in source directory
+#auto generated
+src/*.o
+src/*.a
+src/*.lst
+
+#in .dep directory
+#all
+.dep/*
+
+
